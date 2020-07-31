@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "362009696528",
+    "firebase_url": "https://fir-2eb38.firebaseio.com",
+    "project_id": "fir-2eb38",
+    "storage_bucket": "fir-2eb38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362009696528:android:8851c3f31d7e35a6a3ed95",
+        "android_client_info": {
+          "package_name": "com.prajwalkalne.testtag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362009696528-e0v3m17kad05p2c4488mb3ugg9afu7c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUqqlDClyU9v_p7EfmTDv-VoFv1kjIWTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362009696528-e0v3m17kad05p2c4488mb3ugg9afu7c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
