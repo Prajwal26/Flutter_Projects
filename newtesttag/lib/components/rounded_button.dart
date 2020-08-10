@@ -2,10 +2,11 @@ import 'package:testtag/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class RoundButton extends StatelessWidget {
-  RoundButton({this.colour, this.title, @required this.onPressed});
+  RoundButton({this.colour, this.title,this.textcolour, @required this.onPressed});
 
   final Color colour;
   final String title;
+  final Color textcolour;
   final Function onPressed;
 
   Widget build(BuildContext context) {
@@ -22,7 +23,7 @@ class RoundButton extends StatelessWidget {
           child: Text(
             title,
             style: TextStyle(
-              color: Colors.white
+              color: textcolour,
             ),
           ),
         ),

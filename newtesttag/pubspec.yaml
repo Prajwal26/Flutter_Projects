@@ -34,6 +34,7 @@ dependencies:
   modal_progress_hud: ^0.1.3
   animated_text_kit: ^2.2.0
   firebase_database: ^3.1.6
+  google_fonts: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +55,7 @@ flutter:
   assets:
      - Images/
 
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
@@ -65,17 +67,11 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: font/Lobster-Regular.ttf
+
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

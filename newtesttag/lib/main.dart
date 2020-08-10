@@ -12,6 +12,7 @@ import 'screens/login_screen.dart';
 import 'screens/registration_screen.dart';
 import 'screens/welcome_screen.dart';
 import 'screens/owner_screen.dart';
+import 'screens/login_page.dart';
 void main() {
   runApp(MyApp());
 }
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
 //      home: HomePage(),
       initialRoute: WelcomeScreen.id,
       routes:{
+        Login_Page.id:(context)=>Login_Page(),
         HomePage.id :(context)=>HomePage(),
         LoginScreen.id:(context)=>LoginScreen(),
         RegistrationScreen.id:(context)=>RegistrationScreen(),

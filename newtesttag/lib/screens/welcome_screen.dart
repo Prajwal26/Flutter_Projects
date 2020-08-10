@@ -3,6 +3,10 @@ import 'registration_screen.dart';
 import 'login_screen.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:testtag/components/rounded_button.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'login_page.dart';
+
+
 class WelcomeScreen extends StatefulWidget {
 
   static const String id = 'welcome_screen';
@@ -40,44 +44,40 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: animation.value,
+      backgroundColor: Colors.white,
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            Row(
-              children: <Widget>[
-                Hero(
-                  tag: 'logo',
-                  child: Container(
-                    child: Image.asset('Images/abc.jpg'),
-                    height: 60.0,
-                  ),
-                ),
-                TypewriterAnimatedTextKit(
-                  text: ['Flash Chat'],
-                  textStyle: TextStyle(
-                    fontSize: 45.0,
-                    fontWeight: FontWeight.w900,
-                  ),
-                ),
-              ],
-            ),
+           Center(
+             child: Text(
+               "Testtag",
+               style: TextStyle(
+                 fontWeight: FontWeight.bold,
+                 fontSize: 50.0,
+                 fontFamily: 'Lobster',
+
+              ),
+             ),
+           ),
             SizedBox(
               height: 48.0,
             ),
             RoundButton(
-              colour: Colors.lightBlueAccent,
+              colour: Color(0xff3E2948),
               title: 'LOG IN',
+              textcolour: Colors.white,
               onPressed: () {
-                Navigator.pushNamed(context, LoginScreen.id);
+                Navigator.pushNamed(context, Login_Page.id);
               },
             ),
             RoundButton(
-              colour: Colors.blueAccent,
+              colour: Color(0xffE0DFE0),
               title: 'Register',
+              textcolour:Color(0xff3E2948) ,
+
               onPressed: () {
                 Navigator.pushNamed(context, RegistrationScreen.id);
               },
