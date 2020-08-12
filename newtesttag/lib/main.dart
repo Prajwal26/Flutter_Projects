@@ -13,6 +13,8 @@ import 'screens/registration_screen.dart';
 import 'screens/welcome_screen.dart';
 import 'screens/owner_screen.dart';
 import 'screens/login_page.dart';
+import 'screens/Exam_detail.dart';
+import 'screens/Subject_screen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -37,7 +39,9 @@ class MyApp extends StatelessWidget {
         RegistrationScreen.id:(context)=>RegistrationScreen(),
         WelcomeScreen.id:(context)=>WelcomeScreen(),
         OwnerClass.id:(context)=>OwnerClass(),
+        PreviousYearPage.id:(context)=>PreviousYearPage(),
 
+        ExamDetailPage.id:(context)=>ExamDetailPage(),
         AddForm.id:(context)=>AddForm(),
         Test_create.id:(context)=>Test_create(),
         Questions.id:(context)=>Questions(),
